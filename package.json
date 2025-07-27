@@ -1,0 +1,21 @@
+{
+  "name": "forge.ts.template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@tryforge/forge.canvas": "github:tryforge/forgecanvas#dev",
+    "@tryforge/forge.db": "github:tryforge/forgedb#dev",
+    "@tryforge/forgescript": "github:tryforge/ForgeScript#dev",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.4.7",
+    "sqlite3": "^5.1.7"
+  }
+}
