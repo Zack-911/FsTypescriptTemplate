@@ -48,12 +48,19 @@ A modern TypeScript template for creating Discord bots with ForgeScript, featuri
   yarn build
   ```
 
-- Start the bot in development mode:
+- Start the bot:
   ```bash
   npm start
   # or
   yarn start
   ```
+
+- Start the bot in development mode:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
 ## 🏗️ Project Structure
 
@@ -73,6 +80,7 @@ A modern TypeScript template for creating Discord bots with ForgeScript, featuri
 
 - `npm run build` or `yarn build`: Compiles TypeScript to JavaScript
 - `npm start` or `yarn start`: Builds and runs the bot
+- `npm run dev` or `yarn dev`: Builds and runs the bot in development mode
 
 ## 🤝 Contributing
 
